@@ -1,0 +1,23 @@
+@import './antd.css';
+body{
+  background-image: url("./wall.jpg");
+  
+  /* background-size:cover; */
+}
+.login-form {
+  max-width: 300px;
+  padding:30px 50px 30px 50px;
+  margin:auto;
+  margin-top : 10%;
+  /* border-width: 100px; */
+  /* border-color: aquamarine; */
+  /* opacity:0.9; */
+  background-color: rgba(128, 128, 128,0.9);
+  /* border-radius: 55px; */
+}
+.login-form-forgot {
+  float: right;
+}
+.login-form-button {
+  width: 100%;
+}
