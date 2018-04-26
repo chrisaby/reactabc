@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
+import {SimplePage} from './SimplePage'
 // import WrappedNormalLoginForm from './SignUp'
+           
 
 
-{/* <SimplePage /> */}
 
-ReactDOM.render( <h1>Hello World</h1>
+
+ReactDOM.render(  <SimplePage /> 
   , document.getElementById('root'));
 // registerServiceWorker();

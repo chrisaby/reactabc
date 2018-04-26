@@ -1,4 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-ReactDOM.render( <h1>Hello World</h1>
-    , document.getElementById('root'));
+
+import {Header} from '../Header';
+import {Footer} from '../Footer';
+
+export class SimplePage extends React.Component{
+    render(){
+        var x =""
+        return (
+            <div>
+            <Header />
+            <Footer />
+            </div>            
+        )
+    }
+}
